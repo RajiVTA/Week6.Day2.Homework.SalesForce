@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="salesForceParamsSuiteWeek6Day2">
+
+	<parameter name="url" value="https://login.salesforce.com"></parameter>
+	<parameter name="username" value="ramkumar.ramaiah@testleaf.com"></parameter>
+	<parameter name="password" value="Password#123"></parameter>
+	
+		<test name="salesForceParamsTestWeek6Day2" thread-count="2" verbose="2">
+		
+			<classes>
+			
+				<class name="week6.day2.salesforce.TC001_CreateTaskTestNG"/>
+				<class name="week6.day2.salesforce.TC002_EditTaskTestNG"/>
+				<class name="week6.day2.salesforce.TC003_DeleteTaskTestNG"/>
+				<class name="week6.day2.salesforce.TC004_CreateTaskWithoutMandatoryFieldsTestNG"/>
+			
+			</classes>
+		</test>
+
+</suite>
